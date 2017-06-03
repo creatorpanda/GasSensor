@@ -45,6 +45,6 @@ if (gas_value >= 150){
   }
  
  }
-  // Github: @creatorpanda
+  // Github: creatorpanda
  // Creation of 2017
 
