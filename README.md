@@ -10,11 +10,11 @@ So now you know, let's continue!
 
 **Le wild notes for the setup part**: 
 
-1) Values i entered myself were chosen by studying the values printed while leaking gas from a lighter on the sensor. They can be easily modified. 
+1) Values I entered myself were chosen by studying the values printed while leaking gas from a lighter on the sensor. They can be easily modified. 
  
 2) Except for the MQ-5 Gas Sensor and the jumper wires, a **5V buzzer**, **2 LEDs**- one green/blue and one red- and one **110 Ohms 1% resistor** (for the sensor's ground) are required to make the code work at its 100%. The green/blue is the blinking standby led and the red is the one that goes off when the alarm is triggered.  
 
-**WARNING: using a resistor -which from my experience is an obligation or else the sensor keeps sending max value no matter what- will affect the sensor's reading. Using a resistor with different power than i recommended, will affect again the values the sensor sends to the device and as a result it won't work right, cause then you're gonna have to reevaluate the if statements of the code. Be cautious!!** 
+**WARNING: using a resistor -which from my experience is an obligation or else the sensor keeps sending max value no matter what- will affect the sensor's reading. Using a resistor with different power than i recommended, will affect again the values the sensor sends to the device and as a result, it won't work right, cause then you're gonna have to reevaluate the if statements of the code. Be cautious!!** 
 
 
-In case you don't know what to do: Click on the green "Clone or Download" button, click "Download Zip". Unzip it and you got the source code file, ready to be uploaded on your device!
+In case you don't know what to do: Click on the green "Clone or Download" button, click "Download Zip". Unzip it and you got the source code file, ready to be uploaded to your device!
