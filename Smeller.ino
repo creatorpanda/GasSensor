@@ -1,3 +1,10 @@
+/*   Arduino Gas Detector Project (Smeller)
+
+  Github: creatorpanda
+  Creation of 2017
+
+ */
+
 int sensor=A0;
 int gas_value;
 int led1=8;
@@ -45,6 +52,3 @@ if (gas_value >= 150){
   }
  
  }
-  // Github: creatorpanda
- // Creation of 2017
-
