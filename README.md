@@ -1,4 +1,7 @@
 # Smeller
+
+*About the Upgrade: The new "multithreading" code controls the sensor, the buzzer and the LEDs "simultaneously". I withdrew all delay() functions, making the device as fast as possible.*
+
 This code was made for the **audiovisual** warning of the sensor owner that something is going wrong with the air he/she is surrounded by. A led blinks meaning that the sensor is armed, waiting to "smell" something bad. When that happens, the first led turns off, the buzzer starts beeping and the other led turns on and stays on until a new, non-dangerous value is input by the sensor. Then it goes back to blinking the first led and the buzzer goes silent. "Smelling" something bad will trigger again the buzzer and the other led and so on. No reset required. (MQ-5 Gas Sensor and other equipment required, duh :P)
 
 
